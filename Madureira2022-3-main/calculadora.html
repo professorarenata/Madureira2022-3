@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Calculadora</title>
-  <link rel="stylesheet" href="lolo.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="CSS/estilo.css">
 </head>
+<body><center>
+  
 
-<html>
-<head>
+
+
 <script>
 function soma(form1)
 {
@@ -26,46 +28,44 @@ function sub(form1)
    c=new Number(a-b);
    alert("A subtra��o dos n�meros �:  "+c);
 }
-
-
-function mult(form1)  
+function multi(form1)
 {
   a=new Number(form1.t1.value);
   b=new Number(form1.t2.value);
   c=new Number(a*b);
-  alert("A multiplicação dos n�meros �:  "+c);
-}
+  alert("a multiplicação dos numeros é:" +c);
 
-function div(form1)  
+
+}
+function div(form1)
 {
-  a=new Number(form1.t1.value);
+  a=new Number(form1.t2.value);
   b=new Number(form1.t2.value);
   c=new Number(a/b);
-  alert("A Divisão dos n�meros �:  "+c);
+  alert("a multiplicação dos numeros é:" +c);
+
+
 }
 </script>
+<section id="pp" class="">
 
-</head>
 
-<body >
-  
-<center>
-<div class="cd">
-
+<h1>Calculadora <br> </h1>
+  <h3>
+Digite um número:<br>
 <form name="form1">
-  <h2>Primeiro Número</h2>
-  <input type="text" name="t1"><br>
-  <h2>segundo número</h2>
-  
+  <input type="text" name="t1"><br><br>
+  Digite outro número:<br>
   <input type="text" name="t2"><br><br>
   <input type="button" name="b1" value="+" onClick="soma(form1)">
   <input type="button" name="b2" value="-" onClick="sub(form1)">
-  <input type="button" name="b3" value="*" onclick="mult(form1)">
+  <input type="button" name="b3" value="*" onclick="multi(form1)">
   <input type="button" name="b4" value="/" onclick="div(form1)">
   
-</form>
-</div>
- </h3>
+  
 
+</form>
+ </h3></section>
+</center>
 </body>
 </html>
