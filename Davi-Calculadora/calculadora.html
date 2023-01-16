@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<html>
+<head>
+<script>
+function soma(form1)
+{
+   a=new Number(form1.t1.value);
+   b=new Number(form1.t2.value);
+   c=new Number(a+b);
+   alert("A soma dos n�meros �:  "+c);
+}
+
+function sub(form1)
+{
+   a=new Number(form1.t1.value);
+   b=new Number(form1.t2.value);
+   c=new Number(a-b);
+   alert("A subtra��o dos n�meros �:  "+c);
+}
+
+
+function mult(form1)  
+{
+  a=new Number(form1.t1.value);
+  b=new Number(form1.t2.value);
+  c=new Number(a*b);
+  alert("A multiplicação dos n�meros �:  "+c);
+}
+
+function div(form1)  
+{
+  a=new Number(form1.t1.value);
+  b=new Number(form1.t2.value);
+  c=new Number(a/b);
+  alert("A Divisão dos n�meros �:  "+c);
+}
+</script>
+
+</head>
+
+<body >
+
+<center>
+<div class="calc">
+
+<form name="form1">
+  <h2>Digite um número</h2>
+  <input type="text" name="t1"><br>
+  <h2>Digite outro número</h2>
+
+  <input type="text" name="t2"><br><br>
+  <input type="button" name="b1" value="+" onClick="soma(form1)">
+  <input type="button" name="b2" value="-" onClick="sub(form1)">
+  <input type="button" name="b3" value="*" onclick="mult(form1)">
+  <input type="button" name="b4" value="/" onclick="div(form1)">
+
+</form>
+</div>
+ </h3>
+
+</body>
+</html>
