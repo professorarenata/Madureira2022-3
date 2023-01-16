@@ -1,0 +1,32 @@
+body{
+  background-image: url(calculadora1.jpg);
+}
+
+
+header{
+  padding: 15%;
+  
+
+  
+}
+
+ h1{
+  font-size: 260%;
+  color: rgb(255, 99, 71);
+  
+ 
+}
+
+h3{
+  font-size: 130%;
+  color: rgba(255, 99, 71, 0.822);
+  margin-top: -5%;
+} 
+
+.contanier{
+  
+  height: 100%;
+  width: 100%;
+  
+
+}
