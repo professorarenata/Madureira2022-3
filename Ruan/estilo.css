@@ -1,0 +1,20 @@
+body{
+    background-image: url(img/pi-g7e0a97fce_1920.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+section{
+    color: white;
+    background-color: rgba(146, 146, 146, 0.9);
+    width: 250px;
+    margin-left: 40%;
+    margin-top: 10%;
+   border-radius: 5%;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: larger;
+   padding: 30px;
+   
+    
+}
