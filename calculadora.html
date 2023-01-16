@@ -4,37 +4,37 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script>
-  function soma(form1)
-  {
-    a=new Number(form1.t1.value);
-    b=new Number(form1.t2.value);
-    c=new Number(a+b);
-    alert("A soma dos n�meros �:  "+c);
-  }
-
-  function sub(form1)
-  {
-    a=new Number(form1.t1.value);
-    b=new Number(form1.t2.value);
-    c=new Number(a-b);
-    alert("A subtra��o dos n�meros �:  "+c);
-  }
-  </script>
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 
-<body>
+<body class='flex'>
   <h1>Calculadora</h1>
-  Digite um n�mero:
   <form name="form1">
-    <input type="text" name="t1"><br>
-    Digite outro n�mero:<br>
-    <input type="text" name="t2"><br><br>
-    <input type="button" name="b1" value="+" onClick="soma(form1)">
-    <input type="button" name="b2" value="-" onClick="sub(form1)">
-    <input type="button" name="b3" value="*">
-    <input type="button" name="b4" value="/">
+    <div id='n1' class='input-div flex'>
+      <label for="t1">Digite um número:  </label>
+      <input type="text" name="t1" id='t1'>
+    </div>
+    <div id='n2' class='input-div flex'>
+      <label for="t1">Digite um número:  </label>
+      <input type="text" name="t2" id='t2'>
+    </div>
+    <div class="btn-div flex">
+      <input type="button" name="b1" value="+" onClick="soma(form1)">
+      <input type="button" name="b2" value="-" onClick="sub(form1)">
+      <input type="button" name="b3" value="*"
+      onClick="multiple(form1)">
+      <input type="button" name="b4" value="/"
+      onClick="divide(form1)">
+
+    </div>
+    <div id="result"  class='input-div result-div flex'>
+      <h2>Resultado: <br>
+        <span class='result'></span>
+      </h2>
+    </div>
+    
   </form>
+  <script defer src='./script.js'></script>
 </body>
 </html>
