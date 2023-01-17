@@ -1,0 +1,73 @@
+<html>
+<head>
+<link rel="stylesheet" href="Css/style.css">
+<style> @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700&display=swap'); </style>
+
+  <script>
+  function soma(form1)
+  {
+    a=new Number(form1.t1.value);
+    b=new Number(form1.t2.value);
+    c=new Number(a+b);
+    alert("A soma dos numeros é:  "+c);
+  }
+
+  function sub(form1)
+  {
+    a=new Number(form1.t1.value);
+    b=new Number(form1.t2.value);
+    c=new Number(a-b);
+    alert("A subtraão dos números é:  "+c);
+  }
+
+  function mult(form1)
+  {
+    a=new Number(form1.t1.value);
+    b=new Number(form1.t2.value);
+    c=new Number(a*b);
+    alert("A multiplicação dos números é:  "+c);
+  }
+
+  function div(form1)
+  {
+    a=new Number(form1.t1.value);
+    b=new Number(form1.t2.value);
+    c=new Number(a/b);
+    alert("A divisão dos números é:  "+c);
+  }
+
+
+
+
+  </script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+  
+  <center><h1>Calculadora <br><br> </h1>
+    <h3>
+      <span>Digite um numero:</span>
+      <form name="form1" class="form">
+        
+        <input type="text" name="t1"><br><br>
+        <span>Digite outro numero:</span><br>
+        <input type="text" name="t2"><br><br>
+        
+        <div class="botao">
+          <input type="button" name="b1" value="+" onClick="soma(form1)">
+          <input type="button" name="b2" value="-" onClick="sub(form1)">
+          <input type="button" name="b3" value="*" onClick="mult(form1)">
+          <input type="button" name="b4" value="/" onClick="div(form1)">
+        </div>
+        
+      </form>
+    </h3>
+    
+</div>
+
+</body>
+</html>
