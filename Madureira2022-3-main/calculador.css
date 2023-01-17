@@ -1,0 +1,38 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/a.jpg);
+    background-repeat: no-repeat;
+    background-image: absolute;
+    background-size: cover;
+   
+} 
+
+
+.calc input {
+  color: #fff;
+  position: relative;
+  display: grid;
+  width: 200px;
+  place-items: center;
+  margin: 8px;
+  height: 40px;
+  background: linear-gradient(180deg, #929292, #8d8181);
+  box-shadow: inset -8px 0 8px rgba(0, 0, 0, 0.15),
+    inset 0 -8px 8px rgba(0, 0, 0, 0.25), 0 0 0 2px rgba(0, 0, 0, 0.75),
+    10px 20px 25px rgba(0, 0, 0, 0.4);
+  user-select: none;
+  cursor: pointer;
+  font-weight: 400;
+  border-radius: 10px;
+  
+}
