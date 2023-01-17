@@ -1,0 +1,11 @@
+body {
+    background-image: url("../img/fundo5");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: (8,8,8);
+
+}
+h1{
+    color: rgb(250, 255, 240);
+}
