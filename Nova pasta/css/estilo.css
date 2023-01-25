@@ -1,0 +1,80 @@
+body{
+    font-family: Verdana, sans-serif;
+    margin-left: 20%;
+    background-image: url(../1200px-Presidential_Standard_of_Brazil.svg.jpg);
+    margin-top: 20%;
+    background-size: cover;
+    
+    
+    
+}
+.conteudo{
+    width: 30%;
+    margin: 170px 320px 0;
+   background-color: rgba(0, 0, 0, 0.863);
+   color:goldenrod;
+}
+header img{
+    margin: 0 auto;
+    display: block;
+    
+    
+    
+    
+}
+header h1{
+    text-align: center;
+    
+}
+.input input{
+    display: block;
+    margin: 0 auto 10px;
+    width: 40%;
+    height: 30px;
+    font-size: 16pt;
+    
+}
+.input label{
+    display: block;
+    text-align: center;
+}
+.button{
+    margin: 46px;
+    margin-left: 20%;
+}
+.button input, .resultado input{
+    margin: 0;
+    padding: 10px 20px;
+    border: 0;
+    
+}
+.confirmar{
+    background: rgb(105, 179, 2);
+}
+.corrigir{
+    background: rgb(248, 246, 246);
+    margin-left: 2%;
+}
+.resultado input{
+    margin-left: 185px;
+    position: relative;
+    top: -10px;
+    background: rgba(0, 128, 0);
+}
+input[type="submit"], input[type="reset"], input[type="button"]{
+    cursor: pointer;
+}
+.pres{
+    position: absolute; 
+    width: 240px;
+    right: 70%;
+    top: 37%;
+}
+.gov{
+    position: absolute;
+    width: 300px;
+    margin-left: 32%;
+    top: 37%
+    
+    
+}
